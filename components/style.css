@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    position: fixed;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 40%;
+    height: 50vh;
+    flex-direction: column;
+    gap: 90px;
+    position: relative;
+    backdrop-filter: blur(10px);
+    border: 2px solid #b7113d;
+    border-radius: 20px;
+    
+}
+div#tempo{
+    display: inline-flex;
+}
+span{
+    font-size: 50px;
+    font-family: cursive;
+    padding: 20px;
+    background: #e91e63a3;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+div#botao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button { 
+    width: 30%;
+    height: 5vh;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    background: #e91e63a3;
+    color: white;
+    text-align: center;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+div#pontos{
+    font-size: 100px;
+    line-height: 50px;
+    color: #ffffffc7;
+}
