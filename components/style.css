@@ -27,7 +27,7 @@ img{
     gap: 90px;
     position: relative;
     backdrop-filter: blur(10px);
-    border: 2px solid #b7113d;
+    border: 2px solid #b7113d40;
     border-radius: 20px;
     
 }
@@ -62,11 +62,12 @@ button {
     background: #e91e63a3;
     color: white;
     text-align: center;
+    transition: 1s;
 }
 
 button:hover{
     transform: scale(1.1);
-    transition: 1s;
+  
 }
 
 div#pontos{
